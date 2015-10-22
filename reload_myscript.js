@@ -1,6 +1,5 @@
 function myfunction()
 {
-	window.open("https://play.google.com/store/apps/details?id=indwin.c3.shareapp","_self");
 	var appstoreFail = "www.themeshapp.com";
 	if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true : false)
     {
