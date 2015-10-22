@@ -13,7 +13,7 @@ function myfunction()
                    }
                    ,25);
         //Try launching the app using URL schemes
-        window.open(https://itunes.apple.com/in/app/bigbasket.com/id660683603?mt=8,"_self");
+        window.open("https://itunes.apple.com/in/app/bigbasket.com/id660683603?mt=8","_self");
     } else if(navigator.userAgent.match(/(Android)/g) ? true : false){
 		var loadedAt = +new Date;
         setTimeout(
@@ -25,8 +25,7 @@ function myfunction()
                    ,25);
         //Try launching the app using URL schemes
         window.open("https://play.google.com/store/apps/details?id=indwin.c3.shareapp","_self");
-        window.location = weblink;
     } else {
-		window.location = appstoreFail;
+		window.open()appstoreFail,"_self");
 	}
 }
