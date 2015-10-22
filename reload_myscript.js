@@ -1,6 +1,6 @@
 function myfunction()
 {
-	var appstoreFail = "www.themeshapp.com";
+	var appstoreFail = "http://themeshapp.com/";
 	if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true : false)
     {
         //If the app is not installed the script will wait for 2sec and redirect to web.
