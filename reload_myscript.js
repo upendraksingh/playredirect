@@ -25,7 +25,5 @@ function myfunction()
                    ,25);
         window.open("http://download.themeshapp.com","_self");
 		
-    } else {
-		window.open(appstoreFail,"_self");
-	}
+    }
 }
