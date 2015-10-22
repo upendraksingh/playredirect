@@ -23,7 +23,7 @@ function myfunction()
                        }
                    }
                    ,25);
-        window.open("http://download.themeshapp.com","_self");
+        window.open("https://play.google.com/store/apps/details?id=indwin.c3.shareapp","_self");
 		
     }
 }
