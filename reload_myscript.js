@@ -18,7 +18,7 @@ function myfunction()
 		var loadedAt = +new Date;
         setTimeout(
                    function(){
-                       if (+new Date - loadedAt < 2000){
+                       if (+new Date - loadedAt < 60000){
                    window.location = appstoreFail;
                        }
                    }
