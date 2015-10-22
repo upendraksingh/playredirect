@@ -26,6 +26,6 @@ function myfunction()
         //Try launching the app using URL schemes
         window.open("https://play.google.com/store/apps/details?id=indwin.c3.shareapp","_self");
     } else {
-		window.open()appstoreFail,"_self");
+		window.open(appstoreFail,"_self");
 	}
 }
