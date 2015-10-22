@@ -14,7 +14,7 @@ function myfunction()
                    ,25);
         window.open("https://itunes.apple.com/in/app/bigbasket.com/id660683603?mt=8","_self");
 		
-    } else if(navigator.userAgent.toLowerCase().indexOf("android") > -1) ? true : false){
+    } else if(navigator.userAgent.toLowerCase().indexOf("android") > -1){
 		var loadedAt = +new Date;
         setTimeout(
                    function(){
